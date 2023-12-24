@@ -1,0 +1,15 @@
+{
+  "extends": "./node_modules/@lunaticenslaved/configs/tsconfig.base.json",
+  "ts-node": {
+    "require": ["tsconfig-paths/register"],
+    "files": true
+  },
+  "tsc-alias": {
+    "verbose": false,
+    "resolveFullPaths": true
+  },
+  "include": ["src"],
+  "compilerOptions": {
+    "outDir": "dist"
+  }
+}
